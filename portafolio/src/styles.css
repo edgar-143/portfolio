@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 50px;
+  background: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #222222;
+  transition: color 0.3s;
+}
+body.dark-mode h1,
+body.dark-mode h2 {
+  color: #f1f1f1;
+}
+section {
+  margin-bottom: 30px;
+}
+ul {
+  padding-left: center;
+}
+
+
+
+
+
+
