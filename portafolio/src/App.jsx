@@ -8,8 +8,8 @@ export default function App() {
 
   React.useEffect(() => {
     document.body.style.background = darkMode
-      ? 'url("FondoOscuro.jpg") center center / cover no-repeat fixed'
-      : 'url("FondoClaro.jpg") center center / cover no-repeat fixed';
+      ? 'url("/fondooscuro.jpg") center center / cover no-repeat fixed'
+      : 'url("/fondoclaro.jpg") center center / cover no-repeat fixed';
     if (darkMode) {
       document.body.classList.add('dark-mode');
     } else {
@@ -50,7 +50,7 @@ export default function App() {
           GitHub
         </a>
         <a
-          href="EdgarMartinezCV.pdf"
+          href="edgarmartinezcv.pdf"
           download
           style={{
             textDecoration: 'none',
@@ -101,7 +101,7 @@ export default function App() {
       >
         {/* Foto personal dentro de la tarjeta */}
         <img
-          src="ImagenPortfolio.jpg" // Cambia esto por la ruta de tu foto
+          src="/imagenportfolio.jpg" // Cambia esto por la ruta de tu foto
           alt="Foto de Edgar Martínez"
           style={{ borderRadius: '50%', width: 150, height: 150, marginBottom: 20 }}
         />
